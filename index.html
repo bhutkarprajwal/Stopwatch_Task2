@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="clock-container">
+            <div class="card">
+                <div class="card-info">
+                    <p class="text time" id="time">00:00:00</p>
+                    <span class="text milli" id="milliseconds">00</span>
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <button class="button reset" id="reset" aria-label="Reset Stopwatch">Reset</button>
+                <button class="button pl" id="play-pause" aria-label="Start or Pause Stopwatch">Play</button>
+                <button class="button lap" id="lap" aria-label="Record Lap">Lap</button>
+            </div>
+        </div>
+        <ul class="lap-container" id="lap-list"></ul>
+    </main>
+    <script src="app.js" async defer></script>
+</body>
+</html>

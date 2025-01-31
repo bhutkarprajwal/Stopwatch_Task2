@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    background: linear-gradient(300deg, #8E0E00, #1F1C18, #4c0b5a);
+    background-size: 180% 180%;
+    color: whitesmoke;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(25px);
+    background: var(--background);
+}
+
+.card-info {
+    background: #181818;
+    color: #dac9c9;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover .card-info {
+    color: #f7ba2b;
+    transition: color 0.5s;
+}
+
+.text {
+    font-size: 2.2rem;
+}
+
+.milli {
+    font-size: 1.2rem;
+}
+
+.btn-wrapper {
+    margin-top: 20px;
+}
+
+.btn-wrapper .button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 0.75px solid white;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: -3px 5px 10px rgba(161, 161, 161, 0.3);
+    transition: background 0.3s ease;
+}
+
+.reset {
+    background-color: rgb(153, 25, 25);
+}
+
+.pl {
+    background-color: green;
+}
+
+.lap {
+    background-color: rgb(119, 119, 12);
+}
+
+.lap-container {
+    margin-top: 20px;
+    height: 150px;
+    width: 200px;
+    overflow-y: auto;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
