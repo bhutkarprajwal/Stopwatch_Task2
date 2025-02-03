@@ -28,4 +28,4 @@ A simple and responsive **Stopwatch** built using **HTML, CSS, and JavaScript**.
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/stopwatch-project.git
+   git clone (https://github.com/bhutkarprajwal/Stopwatch_Task2.git)
