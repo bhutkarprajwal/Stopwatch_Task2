@@ -1,6 +1,6 @@
 # ⏱️ Stopwatch Web App  
 
-A simple and responsive **Stopwatch** built using **HTML, CSS, and JavaScript**. This project is part of **Task 2 at SkillCraft Technology** and includes features like Play/Pause, Reset, and Lap functionality.  
+A simple and responsive **Stopwatch** built using **HTML, CSS, and JavaScript**. This project includes features like Play/Pause, Reset, and Lap functionality.  
 
 ## 🚀 Features  
 
