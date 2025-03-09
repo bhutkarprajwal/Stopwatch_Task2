@@ -12,7 +12,7 @@ A simple and responsive **Stopwatch** built using **HTML, CSS, and JavaScript**.
 
 ## 🖥️ Demo  
 
-🔗 [Live Demo](YOUR_LIVE_DEMO_LINK)  
+🔗 [Live Demo](https://bhutkarprajwal.github.io/Stopwatch_Task2/)  
 
 ## 📸 Screenshots  
 
